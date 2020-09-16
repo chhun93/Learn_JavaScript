@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <h1>Console</h1>
+    <p>console 이용해 JavaScript를 실행할 수 있다.</p>
+    <p>
+        var 당첨자수 = 2;<br/>
+        var 댓글선택자 = '._3b-9>div>.UFIComment .UFICommentActorName';<br/>
+        function shuffle(a){<br/>
+            for(let i = a.length;i;i--){<br/>
+                let j = Math.floor(Math.random() * i);<br/>
+            }<br/>
+        }<br/>
+        var list=[];<br/>
+        document.querySelectorAll(댓글선택자).foreach(function(e){<br/>
+            list.push(e.innerText);<br/>
+        });<br/>
+        list=list.filter((v,i,a)) => a.indexOf(v)===i);<br/>
+        shuffle(list)<br/>
+        console.log(list.slice(0,당첨자수));<br/>
+    </p>
+</body>
+</html>
